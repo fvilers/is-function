@@ -1,11 +1,12 @@
 {
-  "name": "is-function",
+  "name": "@fvilers/is-function",
   "version": "0.0.0",
   "description": "A TypeScript type guard that validates if the given value is a function",
   "main": "dist/is-function.js",
   "types": "dist/is-function.d.ts",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "prepare": "npm run build"
   },
   "repository": {
     "type": "git",
