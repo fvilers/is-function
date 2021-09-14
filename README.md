@@ -27,7 +27,7 @@ if (isFunction(variable)) {
   // From here, variable is strongly typed as a function
   console.log("Variable is a function that returns", variable());
 } else {
-  console.log("Variable is not a string");
+  console.log("Variable is not a function");
 }
 ```
 
