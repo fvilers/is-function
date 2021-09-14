@@ -2,6 +2,11 @@
   "name": "is-function",
   "version": "0.0.0",
   "description": "A TypeScript type guard that validates if the given value is a function",
+  "main": "dist/is-function.js",
+  "types": "dist/is-function.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/fvilers/is-function.git"
@@ -15,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/fvilers/is-function/issues"
   },
-  "homepage": "https://github.com/fvilers/is-function#readme"
+  "homepage": "https://github.com/fvilers/is-function#readme",
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  }
 }
