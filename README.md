@@ -14,10 +14,14 @@ or
 yarn add @fvilers/is-function
 ```
 
+# ECMAScript module
+
+Starting with version 2.0.0, this library will be published as an ECMAScript module.
+
 ## Usage
 
 ```ts
-import isFunction from "@fvilers/is-function";
+import { isFunction } from "@fvilers/is-function";
 
 const variable: any = (): string => {
   return "Hello, world!";
