@@ -1,6 +1,6 @@
 {
   "name": "@fvilers/is-function",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "A TypeScript type guard that validates if the given value is a function",
   "type": "module",
   "main": "dist/is-function.js",
